@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "lib": ["ESNext", "DOM"],       
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "outDir": "./dist/js",
+    "rootDir": "./src"
+  },
+  "include": ["src/**/*", "../Front-end/src/ApiClient.ts", "../Front-end/src/ui.ts", "../Front-end/src/dtos.ts", "../Front-end/src/config.ts", "src/main.ts"]
+}
